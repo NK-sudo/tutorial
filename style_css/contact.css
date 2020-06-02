@@ -1,0 +1,81 @@
+body{
+    margin:0px;
+    padding:0px;
+    background:linear-gradient(to bottom, #ff9b00,#ffe237,#2d2d2d 50%,#0e0e0e) no-repeat;  
+}
+a{
+    text-decoration: none;
+}
+.centerBlock>aside, .registration>a, .com{
+    border-bottom:1px solid black;
+}
+.registration, button{
+    box-shadow:2px 2px 3px black;
+}
+.bodyBlock, .comentsBlock{
+    display: flex;
+    justify-content:space-evenly;
+}
+.centerBlock, .coments{
+    max-width:900px;
+    background: white;
+    box-shadow:20px 8px 20px black;
+    margin: 100px 0px 100px 0px;
+}
+.centerBlock>aside{
+    padding:20px 50px 0px 50px;
+    border-top:1px solid #2d2d2d;
+}
+h2+p{
+    font-weight: 500;
+    font-size:18px;
+}
+aside>address>p>a{
+    color:black;
+}
+aside>address>p>a:hover{
+    color:#ff9b00;
+}
+aside>address{
+    padding-top:20px;
+    font-weight: 700;
+    font-size:19px;
+}
+.registration{
+    background: #ed6200;
+    width:150px;
+    border:1px solid black;
+}
+.registration>a{
+    font-weight: 700;
+    color:black;
+    display: block;
+    padding:10px;
+}
+.registration>a:hover{
+    color:white;
+    background: black;
+}
+.comentsBlock{
+    position: relative;
+    margin-top: -150px;
+}
+.coments{
+    min-width: 300px;
+}
+.com{
+    padding:10px 20px;
+}
+textarea{
+    width:200px;
+    height: 200px;
+}
+button{
+    display: block;
+    background:#ed6200;
+    padding:15px;
+    margin-bottom: 30px; 
+}
+textarea, button{
+    margin-left: 20px;
+}

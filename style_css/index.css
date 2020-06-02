@@ -1,0 +1,64 @@
+ body{
+    margin:0px;
+    padding:0px;
+    background:linear-gradient(to bottom, #ff9b00,#ffe237,#2d2d2d 50%,#0e0e0e) no-repeat; 
+}
+header{
+    max-width: 520px;
+    background:#0e0e0e;
+    border-top-right-radius:25px;
+    border-bottom-right-radius:25px;
+    font-size:23px;
+}
+nav{
+    padding: 12px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+} 
+nav>div{
+    display: inline;
+    position: relative;
+    color: white;
+    padding: 7px 20px;
+    border-right:1px solid #0e0e0e;
+}
+.header_a{
+    text-decoration: none;
+    color: white;
+}
+nav>div:hover{
+    border-right:1px solid black;
+    box-shadow:2px 0px 2px white;
+}
+section{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+}
+.sport{
+    display: inline;
+    margin:100px 75px 30px 75px;
+}
+.body_img{
+    border-radius: 10px;
+    width: 150px;
+    height: 150px;
+}
+.social{
+    position: relative;
+    margin-left:75%;
+    margin-bottom:5px;
+    padding: 10px 0px 0px ;
+}
+.social>div{
+    display: inline;
+}
+.social_network{
+    padding-right: 20px;
+    border:1px #0e0e0e;
+}
+.footer_img{
+    width: 20px;
+    height: 20px;
+}

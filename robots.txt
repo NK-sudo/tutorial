@@ -1,0 +1,6 @@
+User-agent:*
+Disallow: /documents/registration.html
+          /documents/enter.html
+          /documents/contact.html
+	  /documents/codeenter.html
+	  /documents/coderegistration.html          
